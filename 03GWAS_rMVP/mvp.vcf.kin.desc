@@ -1,0 +1,5 @@
+new("big.matrix.descriptor", description = list(sharedType = "FileBacked", 
+    filename = "mvp.vcf.kin.bin", dirname = "./", totalRows = 278L, 
+    totalCols = 278L, rowOffset = c(0, 278), colOffset = c(0, 
+    278), nrow = 278, ncol = 278, rowNames = NULL, colNames = NULL, 
+    type = "double", separated = FALSE))

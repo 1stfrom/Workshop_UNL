@@ -1,0 +1,106 @@
+====================== Welcome to MVP ======================
+      A Memory-efficient, Visualization-enhanced, and       
+             Parallel-accelerated Tool For GWAS             
+                    __  __  __   __  ___                    
+                   |  \/  | \ \ / / | _ \                   
+                   | |\/| |  \ V /  |  _/                   
+                   |_|  |_|   \_/   |_|     Version: 1.0.7  
+  Designed and Maintained by Lilin Yin, Haohao Zhang, and   
+  Xiaolei Liu                                               
+  Contributors: Zhenshuang Tang, Jingya Xu, Dong Yin,       
+  Zhiwu Zhang, Xiaohui Yuan, Mengjin Zhu, Shuhong Zhao,     
+  Xinyun Li                                                 
+  Contact: xiaoleiliu@mail.hzau.edu.cn                      
+============================================================
+Start: 2023-11-22 11:16:06.834211 
+The log has been output to the file: /Users/nathanma/Documents/workshop/Workshop_UNL/03GWAS_rMVP/MVP.20231122_111606.log 
+Input data has 278 individuals, 246131 markers 
+Analyzed trait: Cold_Day_1 
+Number of threads used: 8 
+Total 101 individuals removed due to missings 
+Eigen Decomposition on GRM 
+Deriving PCs successfully 
+Number of PCs included in GLM: 3 
+Number of PCs included in MLM: 3 
+Number of PCs included in FarmCPU: 3 
+-------------------------GWAS Start------------------------- 
+General Linear Model (GLM) Start... 
+scanning...
+Genomic inflation factor (lambda): 1.1065 
+Writing results to local file 
+Mixed Linear Model (MLM) Start... 
+Variance components using: BRENT 
+Estimated Vg and Ve: 4.661478 4.999593 
+scanning...
+Genomic inflation factor (lambda): 0.9617 
+Writing results to local file 
+FarmCPU Start... 
+Current loop: 1 out of maximum of 10 
+seqQTN: 
+NULL 
+number of covariates in current loop is: 
+3 
+scanning... 
+Current loop: 2 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+19723 117468 11907 213583 228139 222770 39992 229550 106678 
+number of covariates in current loop is: 
+12 
+scanning... 
+Current loop: 3 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+23499 41132 175213 111570 228690 32688 103136 138877 235856 117468 222770 39992 229550 19723 228139 11907 106678 213583 
+number of covariates in current loop is: 
+21 
+scanning... 
+Current loop: 4 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+229550 117468 29008 129206 103136 119064 84164 23499 228139 111570 228690 175213 39992 32688 41132 19723 222770 11907 138877 235856 213583 106678 
+number of covariates in current loop is: 
+25 
+scanning... 
+Current loop: 5 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+117468 229550 175213 111570 23499 32688 17380 228690 239874 29008 103136 129206 84164 222770 119064 19723 41132 228139 138877 39992 11907 213583 106678 235856 
+number of covariates in current loop is: 
+27 
+scanning... 
+Current loop: 6 out of maximum of 10 
+Optimizing Pseudo QTNs... 
+seqQTN: 
+117468 175213 222770 17380 239874 23499 111570 29008 41132 229550 228690 119064 103136 228139 129206 32688 19723 138877 84164 39992 11907 213583 106678 235856 
+number of covariates in current loop is: 
+27 
+scanning... 
+Genomic inflation factor (lambda): 0.8288 
+Writing results to local file 
+Significant level: 2.03e-07 
+---------------------Visualization Start-------------------- 
+Phenotype distribution Plotting 
+PCA plot2d 
+SNP_Density Plotting 
+Circular_Manhattan Plotting Cold_Day_1.GLM 
+Circular_Manhattan Plotting Cold_Day_1.MLM 
+Circular_Manhattan Plotting Cold_Day_1.FarmCPU 
+Rectangular_Manhattan Plotting Cold_Day_1.GLM 
+Rectangular_Manhattan Plotting Cold_Day_1.MLM 
+Rectangular_Manhattan Plotting Cold_Day_1.FarmCPU 
+Q_Q Plotting Cold_Day_1.GLM 
+Q_Q Plotting Cold_Day_1.MLM 
+Q_Q Plotting Cold_Day_1.FarmCPU 
+Multracks_Rectangular Plotting Cold_Day_1.GLM 
+Multracks_Rectangular Plotting Cold_Day_1.MLM 
+Multracks_Rectangular Plotting Cold_Day_1.FarmCPU 
+Multracks_QQ Plotting Cold_Day_1.GLM 
+Multracks_QQ Plotting Cold_Day_1.MLM 
+Multracks_QQ Plotting Cold_Day_1.FarmCPU 
+Multraits_QQ Plotting Cold_Day_1.GLM 
+Multraits_QQ Plotting Cold_Day_1.MLM 
+Multraits_QQ Plotting Cold_Day_1.FarmCPU 
+Results are stored at Working Directory: /Users/nathanma/Documents/workshop/Workshop_UNL/03GWAS_rMVP 
+End: 2023-11-22 11:18:16.66995 
+===================== MVP ACCOMPLISHED ===================== 

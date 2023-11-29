@@ -1,0 +1,14 @@
+Preparing data for MVP...
+Reading file...
+inds: 278	markers:246131
+Preparation for GENOTYPE data is done within 8s 
+Imputing...
+Impute Genotype File is done!
+MVP data prepration accomplished successfully!
+Deriving relationship matrix successfully 
+Eigen Decomposition on GRM 
+Deriving PCs successfully 
+Preparation for PC matrix is done! 
+Calculate KINSHIP using Vanraden method... 
+Deriving relationship matrix successfully 
+Preparation for Kinship matrix is done! 
